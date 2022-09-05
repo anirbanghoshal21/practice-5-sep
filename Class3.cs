@@ -23,6 +23,13 @@ namespace class3
             
             Console.WriteLine("Executed bookid and bname");
         }
+        public  void InsertBook(int bookid, string bname, float price,int pages)
+        {
 
+        }
+        public new void InsertBook(int bookid, string bname, float price)
+        {
+
+        }
     }
 }
