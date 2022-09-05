@@ -51,6 +51,12 @@ namespace Class1
             this.Price = price;
             this.author = author;
         }
+        public void InsertBook(int bookid, string bname)
+        {
+            this.BookName = bname;
+            this.Bookid = bookid;
+
+        }
 
     }
     }
